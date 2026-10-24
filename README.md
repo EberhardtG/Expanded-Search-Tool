@@ -1,6 +1,4 @@
-Here’s a polished, professional README tailored specifically for your **Semantic Search Streamlit App using ChromaDB**, written to look great on GitHub and clearly explain your project, features, and usage.
 
----
 
 # 🔍 Semantic Search Engine (ChromaDB + Streamlit)
 
@@ -140,12 +138,3 @@ This project builds the foundation for your **Module 7 Semantic Search Engine**,
 Each feature here reduces the work needed for the final module project.
 
 ---
-
-If you want, I can also generate:
-
-- a project logo  
-- a GIF demo section  
-- a “How chunking works” diagram  
-- a more advanced README with badges, shields, and screenshots  
-
-Just tell me what you want next.
