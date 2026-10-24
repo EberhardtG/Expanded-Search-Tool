@@ -1,0 +1,7 @@
+AUTHENTICATION — PASSWORDS & TOKENS
+
+Secure authentication begins with hashing passwords using algorithms like bcrypt. Storing plain text passwords is never acceptable; hashing ensures that even if the database leaks, attackers cannot recover the original passwords.
+
+JWT (JSON Web Tokens) enable stateless authentication. After a user logs in, the server issues a signed token that the client includes in future requests. The server verifies the signature to confirm identity without storing session data.
+
+Token expiration and refresh strategies help maintain security while keeping the user experience smooth.

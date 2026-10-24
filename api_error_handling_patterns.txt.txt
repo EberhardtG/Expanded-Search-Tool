@@ -1,0 +1,9 @@
+API ERROR HANDLING — PATTERNS & BEST PRACTICES
+
+Robust API design requires clear, consistent error handling. Clients should always receive structured responses that explain what went wrong and how to fix it. FastAPI encourages returning standardized error formats using HTTPException, custom handlers, and validation error responses.
+
+Error codes communicate intent. A 400-level error indicates a client mistake, such as invalid data or missing fields. A 500-level error signals a server-side failure, often caused by unexpected exceptions, database outages, or misconfigurations. Choosing the correct status code helps clients respond appropriately.
+
+Logging is essential for diagnosing issues in production. Structured logs containing timestamps, request IDs, and error details make it easier to trace failures across distributed systems. Combined with monitoring tools, logs help teams detect patterns and prevent recurring issues.
+
+Retry strategies and graceful fallbacks improve resilience. When external services fail, APIs can return partial results, cached responses, or helpful guidance instead of crashing. Thoughtful error handling transforms failures into predictable, manageable outcomes.

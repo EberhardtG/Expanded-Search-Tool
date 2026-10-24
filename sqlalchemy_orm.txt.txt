@@ -1,0 +1,7 @@
+EMBEDDINGS — SEMANTIC REPRESENTATION
+
+Embeddings convert text into numerical vectors that capture meaning rather than exact wording. Two sentences with similar meaning produce vectors that are close together in vector space.
+
+Cosine similarity measures how close two vectors are. It’s the backbone of semantic search: queries are embedded, compared to document embeddings, and ranked by similarity.
+
+Chunking long documents into smaller pieces improves retrieval accuracy. Paragraph‑based chunking often preserves meaning better than fixed‑size chunking.

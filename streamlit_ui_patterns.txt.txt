@@ -1,0 +1,7 @@
+STREAMLIT — INTERACTIVE UI PATTERNS
+
+Streamlit reruns your script from top to bottom on every interaction. To persist data across interactions, you use st.session_state, which stores values between reruns.
+
+Widgets such as sliders, text inputs, and multiselects make it easy to build interactive dashboards. The sidebar is ideal for filters, settings, and navigation.
+
+Expanders help organize content by showing previews and letting users reveal full details only when needed. This keeps the UI clean while still providing depth.
